@@ -15,7 +15,8 @@
 
 ## **Required Dependencies:**
 ```bash
-pip install langgraph langchain-openai chromadb
+uv add langgraph langchain-openai chromadb
+uv run <your_file.py>
 ```
 
 ## **Environment Variables Needed:**
